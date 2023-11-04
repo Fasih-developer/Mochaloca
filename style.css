@@ -15,7 +15,7 @@ html{
 }
 /* ----------------------------page1---------------------- */
 .landing{
-    height: 100vh;
+    height: 51vw;
     width: 100vw;
 }
 .head{
@@ -66,7 +66,7 @@ color: white;
     letter-spacing: -3px;
     margin-left: 2vw;
     font-weight: 800;
-    -webkit-text-stroke: 2.8px black;
+    -webkit-text-stroke: 0.15vw black;
     color: transparent;
     transition: all ease 0.5s;
     cursor:pointer;
@@ -83,7 +83,7 @@ color: white;
     height: 8vw;
     width: 8vw;
     background-color: transparent;
-    border: 2px black solid;
+    border: 0.1vw black solid;
     font-size: 5vw;
     border-radius:50% ;
     transition: all ease 0.7s;
@@ -154,7 +154,7 @@ color: white;
     width: 10vw;
     background-color: transparent;
     color: black;
-    border: 2px black solid;
+    border: 0.09vw black solid;
     border-radius: 3vw;
     font-size: 1vw;
     transition: all ease 0.4s;
@@ -181,7 +181,7 @@ color: white;
     font-size: 8vw;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: 2px black;
+    -webkit-text-stroke: 0.1vw black;
     margin-left: 1.8vw;
     transition: all ease 0.4s;
     cursor: pointer;
@@ -294,7 +294,7 @@ color: white;
 }
 .dis-head::before{
     content: '';
-    height: 4px;
+    height: 0.2vw;
     width: 4vw;
     position: relative;
     margin-top: -.5vw;
@@ -318,7 +318,7 @@ color: white;
 .dis-text span{
     display: inline-block;
     height: 3.5vw;
-    margin: 0px 10px;
+    margin: 0px 0.5vw;
     margin-bottom: -0.7vw;
     border-radius: 10vw;
     width: 8vw;
@@ -350,7 +350,7 @@ color: white;
 
 .contact-us{
     width: 100vw;
-    height: 102vh;
+    height: 53vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -378,7 +378,7 @@ justify-content: center;
 flex-wrap: wrap;
 
 }
-.contact h2{
+.contact h3{
     font-size: 1vw;
 }
 .contact button{
