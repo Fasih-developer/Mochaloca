@@ -330,18 +330,18 @@ color: white;
 }
 
 #span1{
-    background-image: url(/media/motto/bluegirl.jpg);
+    background-image: url(/media/motto/bluegirl.webp);
     background-size: cover;
     background-position: center;
     width: 6vw;
 }
 #span2{
-    background-image: url(/media/motto/grass.jpg);
+    background-image: url(/media/motto/grass.webp);
     background-size: cover;
     background-position: center;
 }
 #span3{
-    background-image: url(/media/motto/shaljam.jpg);
+    background-image: url(/media/motto/shaljam.webp);
     background-size: cover;
     background-position: center;
 }
