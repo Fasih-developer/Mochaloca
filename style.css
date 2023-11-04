@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Poppins:wght@400;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+html , body{
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ----------------------------page1---------------------- */
+.landing{
+    height: 100vh;
+    width: 100vw;
+}
+.head{
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.logo{
+    width: 15vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.logo h4{
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-left: 1vw;
+    cursor: pointer;
+    color: black;
+    text-transform: lowercase;
+    transition:all ease 0.3s;
+}
+.logo h4:hover{
+    color: white;
+}
+.head i{
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    cursor:pointer;
+    font-size: 2vw;
+    transition: all ease 0.3s;
+}
+.head i:hover {
+color: white;
+}
+.border-text{
+    height:33vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border-text h2{
+    font-size: 9vw;
+    letter-spacing: -3px;
+    margin-left: 2vw;
+    font-weight: 800;
+    -webkit-text-stroke: 2.8px black;
+    color: transparent;
+    transition: all ease 0.5s;
+    cursor:pointer;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+}
+
+.arrow button{
+    height: 8vw;
+    width: 8vw;
+    background-color: transparent;
+    border: 2px black solid;
+    font-size: 5vw;
+    border-radius:50% ;
+    transition: all ease 0.7s;
+}
+.arrow button:hover{
+    background-color: black;
+    color: rgb(233, 233, 233);
+}
+/*----------------------page 2---------------------------------------*/
+.page-2{
+    width: 100vw;
+    height: 38vw;
+}
+.page-2-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.page-2-head{
+    height: 7vw;
+    width: 58vw;
+    /* margin-top: -1vw; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.page-2-img{
+    width: 28vw;
+    height: 36vw;
+    transition: all ease 0.5s;
+    border-radius: 10%;
+    overflow: hidden;
+}
+.page-2-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all ease 0.5s;
+}
+.page-2-img img:hover{
+    transform: scale(1.2);
+}
+
+.page-2-text{
+    width: 58vw;
+    height: 36vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.page-2-text p{
+    font-size: 1.6vw;
+    height: 24vw;
+}
+.page-2-head h2{
+    font-size: 5vw;
+    text-align: center;
+}
+.page-2-button{
+    width: 100%;
+    margin-top: 1vw;
+}
+.page-2-button button{
+    height: 3vw;
+    width: 10vw;
+    background-color: transparent;
+    color: black;
+    border: 2px black solid;
+    border-radius: 3vw;
+    font-size: 1vw;
+    transition: all ease 0.4s;
+}
+.page-2-button button:hover{
+    background-color: black;
+    color: white;
+    border: 0px;
+
+}
+/*---------------------------marque----------------------------------*/
+.marque{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+.mar{
+    animation: 16s scroll linear infinite ;
+    
+}
+.marque h4{
+    display: inline-block;
+    font-size: 8vw;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+    margin-left: 1.8vw;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.marque::-webkit-scrollbar{
+    display: none;
+}
+.marque h4:hover{
+    color: black;
+}
+@keyframes scroll {
+    from{
+        transform: translatex(0%);
+    }
+    to{
+        transform: translatex(-100%);
+    }
+}
+/*------------------------page 3-------------------------------------*/
+.page-3{
+    width: 100vw;
+    height: 42vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-3-main{
+    height: 45vw;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.page-3-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-3-head h2{
+    font-size: 5vw;
+    word-spacing: 1vw;
+    font-weight: 700;
+}
+.page-3-slider{
+    height: 30vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    height: 30vw;
+    width: 22vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-img{
+    height: 80%;
+    width: 90%;
+    border-radius: 1vw;
+    overflow: hidden;
+}
+.card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all ease 0.3s;
+}
+.card img:hover{
+    transform: scale(1.2);
+}
+.card h4{
+    width: 100%;
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 1vw;
+    font-weight: 600;
+}
+/*------------------------dis page-------------------------------------*/
+.dis{
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+.disadvantages{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dis-head{
+    width: 16vw;
+    display: flex;
+    align-items: flex-start;
+    margin-top: -7vw;
+    justify-content: center;
+}
+.dis-head h2{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+.dis-head h2:hover{
+    color: white;
+}
+.dis-head::before{
+    content: '';
+    height: 4px;
+    width: 4vw;
+    position: relative;
+    margin-top: -.5vw;
+    border-radius: 20px;
+    margin-right: -4vw;
+    background-color: burlywood;
+}
+.dis-text{
+    margin-top: 0vw;
+    width: 90vw;
+    margin-left: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dis-text p{
+    text-align: center;
+    font-size: 3vw;
+    line-height: 5vw;
+}
+.dis-text span{
+    display: inline-block;
+    height: 3.5vw;
+    margin: 0px 10px;
+    margin-bottom: -0.7vw;
+    border-radius: 10vw;
+    width: 8vw;
+    background-color: red;
+    transition: all ease 0.4s;
+}
+.dis-text span:hover{
+    transform: scale(1.2);
+}
+
+#span1{
+    background-image: url(/media/motto/bluegirl.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 6vw;
+}
+#span2{
+    background-image: url(/media/motto/grass.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#span3{
+    background-image: url(/media/motto/shaljam.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*------------------------contacnt page-------------------------------------*/
+
+
+.contact-us{
+    width: 100vw;
+    height: 102vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.contact-us video{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+}
+.contact{
+position: absolute;
+background-color: white;
+z-index: 99;
+border-radius: 20px;
+height: 9vw;
+width: 18vw;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.contact h2{
+    font-size: 1vw;
+}
+.contact button{
+    height: 3vw;
+    width: 13vw;
+    margin-top: -2vw;
+    font-size: 1vw;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    transition: all ease 0.3s;
+    border: none;
+}
+/*---------------------------gaps----------------------------------*/
+.gap1{
+    height: 8vw;
+    width: 100vw;
+}
+.gap2{
+    height: 8vw;
+    width: 100vw;
+}
+.gap3{
+    height: 3vw;
+    width: 100vw;
+}
+/*----------------------------cursor---------------------------------*/
+.cursor{
+    position: fixed;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(76, 75, 75);
+    transition: all linear 0.3s;
+    background-size: contain;
+    overflow: hidden;
+}
+.cursor video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/*-------------------------------------------------------------*/
