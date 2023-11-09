@@ -13,19 +13,12 @@ const scroll = new LocomotiveScroll({
 let cursor = document.querySelector('.cursor');
 let main = document.querySelector('#main');
 let logo = document.querySelector('.logo');
-let bars = document.querySelector(".ri-align-justify");
 let motto = document.querySelector('.dis-head h2')
 main.addEventListener("mousemove",function(dets){
     cursor.style.left = dets.x + 'px';
     cursor.style.top = dets.y + 'px';
 })
 
-bars.addEventListener('mouseenter',function(){
-    cursor.style.transform = 'scale(5)';
-})
-bars.addEventListener('mouseleave',function(){
-    cursor.style.transform = 'scale(1)';
-})
 logo.addEventListener('mouseenter',function(){
     cursor.style.transform = 'scale(7)';
 })
@@ -89,3 +82,22 @@ vid_box.addEventListener('mouseleave',function(){
 
 })
 
+//------------------navbar---------------------
+let navbar = document.querySelector(".navbar");
+let bars  = document.querySelector('.nav-bar i');
+let close = document.querySelector('.header i')
+bars.addEventListener('mouseenter',function(){
+    cursor.style.transform = 'scale(5)';
+})
+bars.addEventListener('mouseleave',function(){
+    cursor.style.transform = 'scale(1)';
+})
+
+bars.addEventListener('click' ,function(){
+    navbar.style.right = '0%'
+    navbar.style.opacity = '1'
+})
+close.addEventListener('click', function(){
+    navbar.style.right = '-23%'
+    navbar.style.opacity = '0'
+})

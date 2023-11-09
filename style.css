@@ -43,17 +43,6 @@ html{
 .logo h4:hover{
     color: white;
 }
-.head i{
-    position: absolute;
-    right: 2%;
-    top: 1%;
-    cursor:pointer;
-    font-size: 2vw;
-    transition: all ease 0.3s;
-}
-.head i:hover {
-color: white;
-}
 .border-text{
     height:33vw;
     width: 100vw;
@@ -154,7 +143,7 @@ color: white;
     width: 10vw;
     background-color: transparent;
     color: black;
-    border: 0.09vw black solid;
+    border: 0.1vw black solid;
     border-radius: 3vw;
     font-size: 1vw;
     transition: all ease 0.4s;
@@ -423,3 +412,118 @@ flex-wrap: wrap;
     object-position: center;
 }
 /*-------------------------------------------------------------*/
+/*----------------------------   navbar  ---------------------------------*/
+.nav-bar{
+    position: fixed;
+    height: 4vw;
+    width: 4vw;
+    right: 1%;
+    top: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar i{
+    color: black;
+    font-size: 2.5vw;
+    font-weight: 900s;
+}
+.nav-bar i:hover{
+    color: white;
+}
+.navbar{
+    height: 100vh;
+    width: 23vw;
+    z-index: 99;
+    position: fixed;
+    background-color: antiquewhite;
+    right: -23%;
+    transition: all ease 0.5s;
+    opacity: 0;
+}
+.header{
+    height: 13vw;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.header h4{
+    font-size:2.4vw;
+}
+.header i{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size: 2vw;
+}
+.why a{
+    font-size: 2vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 14vh;
+    margin-top: 2vw;
+    color: black;
+    transition: all ease 0.7s;
+    border-radius: 1vw;
+    justify-content: center;
+}
+.why a:hover{
+    background-color: black;
+    color: white;
+}
+
+.famous-types a{
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    height: 14vh;
+    border-radius: 1vw;
+    color: black;
+    transition: all ease 0.5s;
+    text-align: center;
+    padding-left: 1vw;
+}
+.famous-types a:hover{
+    background-color: black;
+    color: white;
+}
+.about-us a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.5s;
+    border-radius: 1vw;
+    margin-top: 2vw;
+    height: 12vh;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+}
+.about-us a:hover{
+    background-color: black;
+    color: white;
+}
+.contact-p a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+    margin-top: 2vw;
+    height: 12vh;
+    transition: all ease 0.5s;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+}
+.contact-p a:hover{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mocha Loca - Home</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link rel="shortcut icon" href="/media/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -13,18 +12,40 @@
 </head>
 <body>
 
-    <div class="cursor">
+    <div class="cursor"></div>
+
+    <div class="navbar">
+        <div class="header">
+            <h4><a href="#home">Mocha loca</a></h4>
+            <i class="ri-close-line"></i>
+        </div>
+        <div class="why">
+            <h4><a href="#page-2">Why people drink coffee?</a></h4>
+        </div>
+        <div class="famous-types">
+            <h4> <a href="#page-3">Famous coffee types</a></h4>
+        </div>
+        <div class="about-us">
+            <h4><a  href="#page-4">about us</a></h4>
+        </div>
+        <div class="contact-p">
+            <h4><a href="#page-5">contact us</a></h4>
+        </div>
     </div>
+
 <div id="main">
-
-
-<div class="landing">
+<div class="landing" id="home">
+    
             <div class="head">
                 <div class="logo"  data-aos="fade-down">
                     <h4>Mocha</h4>
                     <h4> loca</h4>
                 </div>
-                <i class="ri-align-justify"  data-aos="zoom-in"></i>
+                
+             <div class="nav-bar">
+                <i class="ri-menu-line"></i>
+            </div>
+            
             </div>
 
             <div class="border-text"  data-aos="fade">
@@ -34,7 +55,7 @@
             </div>
 
             <div class="arrow"  data-aos="fade-up">
-                <button><i class="ri-arrow-down-s-line"></i></button>
+                <a href="#page-2"><button><i class="ri-arrow-down-s-line"></i></button></a>
             </div>
 </div>
         
@@ -145,7 +166,7 @@
 <div class="gap2"></div>
 
 <!-- page3 -->
-<div class="page-3">
+<div class="page-3" id="page-3">
     <div class="page-3-main">
         <div class="page-3-head">
             <h2>coffee types</h2>
@@ -171,7 +192,7 @@
 <div class="gap3"></div>
 
 
-<div class="dis">
+<div class="dis" id="page-4">
 <div class="disadvantages">
     <div class="dis-head"><h2>About us</h2></div>
     <div class="dis-text">
@@ -184,7 +205,7 @@
 
 
 
-<div class="contact-us">
+<div class="contact-us" id="page-5">
             <video src="/media/video/cantact_1.mp4" autoplay loop>
             </video>
             <div class="contact">
@@ -198,7 +219,7 @@
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script><!--locommotive-->
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
