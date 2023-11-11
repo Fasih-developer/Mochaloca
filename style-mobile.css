@@ -1,0 +1,206 @@
+/*navbar----------------------------------**/
+.nav-bar{
+    position: fixed;
+    height: 16vw;
+    width: 16vw;
+    right: 1%;
+    top: 0.5%;
+    display: flex;
+    align-items: center;
+}
+.nav-bar i{
+    color: black;
+    font-size: 9vw;
+    font-weight: 900s;
+}
+:root{
+    --primary:-100% ;
+    --secondary:0% ;
+}
+.navbar{
+    height: 100vh;
+    width: 100vw;
+    z-index: 99;
+    position: fixed;
+    background-color: antiquewhite;
+    right: var(--primary);
+    transition: all ease 0.5s;
+    opacity: 1;
+}
+.header{
+    height: 32vw;
+}
+.header h4{
+    font-size:8vw;
+}
+.header i{
+    font-size: 8vw;
+}
+.why a{
+    font-size: 6vw;
+    height: 32vw;
+}
+.famous-types a{
+    font-size: 6vw;
+    height: 32vw;
+}
+.about-us a{
+    font-size: 6vw;
+    height: 32vw;
+}
+.contact-p a{
+    font-size: 6vw;
+    height: 32vw;
+}
+/* ----------------------------page1---------------------- */
+.landing{
+    height: 180vw;
+    width: 100vw;
+}
+.head{
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+}
+.logo{
+    width: 15vw;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+.logo h4{
+    font-size: 9vw;
+    font-weight: 700;
+    margin-left: 3vw;
+    cursor: pointer;
+    color: black;
+    text-transform: lowercase;
+    transition:all ease 0.3s;
+}
+.logo h4:hover{
+    color: white;
+}
+#border{
+    height:130vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.border-text{
+    height:110vw;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.border-text h2{
+    font-size: 27vw;
+    letter-spacing: -3px;
+    margin-left: 2vw;
+    font-weight: 800;
+    -webkit-text-stroke: 0.3vw black;
+    color: transparent;
+    transition: all ease 0.5s;
+    cursor:pointer;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 30vw;
+    /* background-color: red; */
+    justify-content: center;
+}
+
+.arrow button{
+    height: 20vw;
+    width: 20vw;
+    background-color: transparent;
+    border: 0.3vw black solid;
+    font-size: 13vw;
+    border-radius:50% ;
+    transition: all ease 0.7s;
+}
+.arrow button:hover{
+    background-color: black;
+    color: rgb(233, 233, 233);
+}
+/*----------------------page 2---------------------------------------*/
+.page-2{
+    width: 100vw;
+    /* background-color: rgb(177, 134, 219); */
+    height: 320vw;
+}
+.page-2-main{
+    flex-wrap: wrap;
+}
+.page-2-img{
+    width: 80vw;
+    height: 80vw;
+    border-radius: 50%;
+    margin-top: 5vw;
+}
+
+.page-2-text{
+    width: 85vw;
+    height: 220vw;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 8vw;
+    /* background-color: red; */
+}
+.page-2-head{
+    /* background-color: rebeccapurple; */
+    height: 35vw;
+    width: 100vw;
+
+}
+.page-2-head h2{
+    font-size: 9vw;
+}
+.page-2-text p{
+    font-size:5vw;
+    /* background-color: rebeccapurple; */
+    height: 170vw;
+}
+
+.page-2-button{
+    width: 100%;
+}
+.page-2-button button{
+    height: 12vw;
+    width: 38vw;
+    border: 0.2vw black solid;
+    border-radius:10vw;
+    font-size: 4.5vw;
+}
+/*---------------------------marque----------------------------------*/
+.marque h4{
+    -webkit-text-stroke: 0.3vw black;
+    font-size: 30vw;
+}
+.mar{
+    animation: 11s scroll linear infinite ;
+    
+}
+/*---------------------------gaps----------------------------------*/
+.gap1{
+    /* background-color: rebeccapurple; */
+    height: 40vw;
+    width: 100vw;
+}
+.gap2{
+    height: 30vw;
+    width: 100vw;
+}
+.gap3{
+    height: 3vw;
+    /* background-color: rebeccapurple; */
+    width: 100vw;
+}

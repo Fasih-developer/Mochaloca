@@ -55,7 +55,7 @@ html{
     letter-spacing: -3px;
     margin-left: 2vw;
     font-weight: 800;
-    -webkit-text-stroke: 0.15vw black;
+    -webkit-text-stroke: 0.12vw black;
     color: transparent;
     transition: all ease 0.5s;
     cursor:pointer;
@@ -72,7 +72,7 @@ html{
     height: 8vw;
     width: 8vw;
     background-color: transparent;
-    border: 0.1vw black solid;
+    border: 0.11vw black solid;
     font-size: 5vw;
     border-radius:50% ;
     transition: all ease 0.7s;
@@ -319,19 +319,20 @@ html{
 }
 
 #span1{
-    background-image: url(/media/motto/bluegirl.webp);
+    background-image: url(/media/about/2.webp);
     background-size: cover;
     background-position: center;
     width: 6vw;
 }
 #span2{
-    background-image: url(/media/motto/grass.webp);
+    background-image: url(/media/about/10.webp);
     background-size: cover;
     background-position: center;
 }
 #span3{
-    background-image: url(/media/motto/shaljam.webp);
+    background-image: url(/media/about/5.webp);
     background-size: cover;
+    width: 7vw;
     background-position: center;
 }
 /*------------------------contacnt page-------------------------------------*/
@@ -431,13 +432,17 @@ flex-wrap: wrap;
 .nav-bar i:hover{
     color: white;
 }
+:root{
+    --primary:-23% ;
+    --secondary:0% ;
+}
 .navbar{
     height: 100vh;
     width: 23vw;
     z-index: 99;
     position: fixed;
     background-color: antiquewhite;
-    right: -23%;
+    right: var(--primary);
     transition: all ease 0.5s;
     opacity: 0;
 }

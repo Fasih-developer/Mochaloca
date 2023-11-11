@@ -94,10 +94,10 @@ bars.addEventListener('mouseleave',function(){
 })
 
 bars.addEventListener('click' ,function(){
-    navbar.style.right = '0%'
+    navbar.style.right = 'var(--secondary)'
     navbar.style.opacity = '1'
 })
 close.addEventListener('click', function(){
-    navbar.style.right = '-23%'
+    navbar.style.right = 'var(--primary)'
     navbar.style.opacity = '0'
 })
