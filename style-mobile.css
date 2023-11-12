@@ -189,6 +189,52 @@
     animation: 11s scroll linear infinite ;
     
 }
+/*------------------------page 3-------------------------------------*/
+.page-3{
+    width: 100vw;
+    height: 180vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-3-main{
+    height: 175vw;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.page-3-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-3-head h2{
+    font-size: 12vw;
+    word-spacing: 1vw;
+    font-weight: 700;
+}
+.page-3-slider{
+    height: 145vw;
+    width: 100%;
+    display: flex;
+}
+.card{
+    height: 140vw;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card h4{
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 600;
+}
 /*---------------------------gaps----------------------------------*/
 .gap1{
     /* background-color: rebeccapurple; */
