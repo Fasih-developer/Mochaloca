@@ -257,7 +257,6 @@
 }
 /*---------------------------gaps----------------------------------*/
 .gap1{
-    /* background-color: rebeccapurple; */
     height: 30vw;
     width: 100vw;
 }
@@ -267,6 +266,5 @@
 }
 .gap3{
     height: 3vw;
-    /* background-color: rebeccapurple; */
     width: 100vw;
 }
