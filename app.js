@@ -102,13 +102,9 @@ close.addEventListener('click', function(){
     navbar.style.opacity = '0'
 })
 let links = document.querySelectorAll(".links");
-// console.log(links)
 links.forEach(function(e){
-    // console.log(e)
     e.addEventListener('click',() => {
-            setTimeout(() => {
                 navbar.style.right = 'var(--primary)';
                 navbar.style.opacity = '0';
-            }, 500);
         })
 })

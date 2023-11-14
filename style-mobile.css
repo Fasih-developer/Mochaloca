@@ -258,7 +258,7 @@
 
 
 .dis{
-    height: 140vw;
+    height: 180vw;
     display: flex;
     align-items: center;
 }
@@ -267,17 +267,17 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    height: 70%;
+    height: 80%;
 }
 .dis-head{
-    width: 100vw;
+    width: 75vw;
     display: flex;
     align-items: flex-start;
     margin-top: -7vw;
     justify-content: center;
 }
 .dis-head h2{
-    font-size: 12vw;
+    font-size: 13vw;
     font-weight: 700;
 }
 .dis-head h2:hover{
@@ -288,7 +288,7 @@
     height: 1vw;
     width: 12vw;
     position: relative;
-    margin-top: -2vw;
+    margin-top: -1.5vw;
     border-radius: 20px;
     margin-right: -15vw;
     background-color: burlywood;
@@ -296,30 +296,30 @@
 .dis-text{
     margin-top: 0vw;
     width: 90vw;
-    margin-left: 6vw;
+    margin-left: 5vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .dis-text p{
     text-align: center;
-    font-size: 6vw;
-    line-height: 8vw;
+    font-size: 7vw;
+    line-height: 12vw;
 }
 .dis-text span{
     display: inline-block;
-    height:5vw;
+    height:7.5vw;
     margin: 0px 0.5vw;
     margin-bottom: -0.7vw;
     border-radius: 10vw;
-    width: 12vw;
+    width: 18vw;
     transition: all ease 0.4s;
 }
 #span1{
-   width: 10vw;
+   width: 16vw;
 }
 #span3{
-    width: 11vw;
+    width: 17vw;
 }
 /*------------------------contacnt page-------------------------------------*/
 
@@ -331,9 +331,6 @@
     align-items: center;
     justify-content: center;
     position: relative;
-}
-.contact-us video{
-    opacity: 1;
 }
 .contact{
 background-color: white;
