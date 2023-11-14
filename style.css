@@ -395,6 +395,9 @@ flex-wrap: wrap;
     height: 3vw;
     width: 100vw;
 }
+.gap14{
+    height: 0vw;
+}
 /*----------------------------cursor---------------------------------*/
 .cursor{
     position: fixed;
